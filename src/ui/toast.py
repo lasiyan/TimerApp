@@ -4,7 +4,7 @@ import threading
 import time
 import tkinter as tk
 
-from src import theme
+from src import sound, theme
 from src.constants import FADE_DELAY, FADE_STEP, HOVER_POLL
 from src.config import DEFAULTS
 from src.fonts import FONT_NAME, FS10
@@ -178,6 +178,7 @@ class Toast(tk.Toplevel):
 
 def fire(root, ax, ay, msg, color, cfg):
     """설정에 따른 모니터에 토스트 알림 발사"""
+    sound.play(cfg)
     mode = cfg["monitor"]
     if mode == "all":
         rects = all_mons()

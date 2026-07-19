@@ -15,6 +15,9 @@ DEFAULTS = {
     "win_h": 220,
     "theme": "system",  # dark | light | system
     "tray_on_close": 0,
+    "sound": "builtin",  # off | custom | builtin | 시스템 사운드 이벤트명
+    "sound_file": "",
+    "volume": 100,
 }
 
 _REG_KEY = r"Software\TimerApp"

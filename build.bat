@@ -26,6 +26,7 @@ if exist "%ROOT%\res\icon.ico" (
     set ADD_DATA=%ADD_DATA% --add-data "%ROOT%\res\icon.ico;res"
 )
 if exist "%ROOT%\res\Pretendard-Regular.ttf" set ADD_DATA=%ADD_DATA% --add-data "%ROOT%\res\Pretendard-Regular.ttf;res"
+if exist "%ROOT%\res\alarm.wav" set ADD_DATA=%ADD_DATA% --add-data "%ROOT%\res\alarm.wav;res"
 
 set UPX_OPT=--noupx
 set UPX_DIR=

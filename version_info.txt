@@ -5,8 +5,8 @@
 
 VSVersionInfo(
   ffi=FixedFileInfo(
-    filevers=(1, 0, 0, 0),
-    prodvers=(1, 0, 0, 0),
+    filevers=(1, 1, 0, 0),
+    prodvers=(1, 1, 0, 0),
     mask=0x3f,
     flags=0x0,
     OS=0x40004,
@@ -22,12 +22,12 @@ VSVersionInfo(
           [
             StringStruct('CompanyName', 'Lasiyan'),
             StringStruct('FileDescription', 'TimerApp - N분 타이머'),
-            StringStruct('FileVersion', '1.0.0.0'),
+            StringStruct('FileVersion', '1.1.0.0'),
             StringStruct('InternalName', 'TimerApp'),
             StringStruct('LegalCopyright', '© 2026 Lasiyan'),
             StringStruct('OriginalFilename', 'TimerApp.exe'),
             StringStruct('ProductName', 'TimerApp'),
-            StringStruct('ProductVersion', '1.0.0.0'),
+            StringStruct('ProductVersion', '1.1.0.0'),
           ]
         )
       ]

@@ -10,7 +10,7 @@ _font_buffers = []  # GC 방지
 def _base():
     if getattr(sys, "frozen", False):
         return getattr(sys, "_MEIPASS", os.path.dirname(sys.executable))
-    return os.path.dirname(os.path.abspath(os.path.join(__file__, "..", "..")))
+    return os.path.abspath(os.path.join(__file__, "..", ".."))
 
 
 def _load_pretendard():
