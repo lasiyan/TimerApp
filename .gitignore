@@ -19,6 +19,9 @@ env/
 .mypy_cache/
 .ruff_cache/
 
+# Claude 작업 문서 (커밋 제외)
+docs/superpowers/
+
 # OS files
 .DS_Store
 Thumbs.db
